@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* navigation */
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 60px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+}
+
+#navbar li a:hover{
+    color: white;
+}
+
+#navbar li a.active{
+    color: white;
+}
+
+/* movie poster */
+
+#evil{
+    background-image: url(../images/movies/home/evildeadrise.jpg);
+    height: 92vh;
+    width: 100%;
+    background-size: cover;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50vh;
+}
+
+#evil h1{
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+#evil p{
+    color: white;
+    font-size: 15px;
+    padding-top: 15px;
+    
+}
+
+#evil h2{
+    color: white;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+/* trending movies */
+
+#trending h1{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 50px;
+    
+}
+
+#trendmovies img{
+    height: 400px;
+}
+
+.trendm1{
+    padding: 0 60px;
+}
+
+#trendmovies .trend{
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.trend h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.trend a{
+    text-decoration: none;
+}
+
+#trendmovies{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* banner */
+
+.banner1{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../images/movies/home/banner.jpg");
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+}
+
+#banner h2{
+    color: white;
+    font-size: 40px;
+}
+
+#banner h6{
+    color: white;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+/* movie banners */
+
+#banner2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    padding-bottom: 60px;
+    
+}
+
+#banner2 .bannerbox{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: left;
+    background-image: url("../images/movies/home/avatar.jpg");
+    min-width: 660px;
+    height: 50vh;
+    background-size: cover;
+    padding: 30px;
+}
+
+#banner2 h2{
+    color: white;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+#banner2 .bannerbox2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: left;
+    background-image: url("../images/movies/home/65.jpg");
+    min-width: 660px;
+    height: 50vh;
+    background-size: cover;
+    padding: 30px;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer img{
+    width: 200px;
+    height: 80px;
+}
+
+footer h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+footer p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgb(29, 29, 29);
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
